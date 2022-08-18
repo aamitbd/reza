@@ -67,6 +67,9 @@ h1, h2, h3{
     flex-flow: row nowrap;
     justify-content: space-between;
 }
+@media screen and (min-width: 760px) {
+
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 22%;}
@@ -74,7 +77,6 @@ h1, h2, h3{
 .col-5 {width: 41.66%;}
 .col-6 {width: 49%;}
 .col-12 {width: 100%;}
-
 .common-heading{
     position: relative;
     text-transform: uppercase;
@@ -102,7 +104,6 @@ h1, h2, h3{
 }
 
 /* --- main css Start---*/
-
 .menu {    
     background-color: rgba(0, 0, 0, 0.75);
     position: fixed;
@@ -252,6 +253,9 @@ h1, h2, h3{
 .instra-images{
     display: flex;
     padding-top: 45px;
+}
+.image-container {
+    width: 25%;
 }
 .instra-images img{
     height: 325px;
@@ -428,7 +432,7 @@ h1, h2, h3{
     margin-bottom: 5px;
     font-size: 17px;
     font-family: roboto-l;
-
+    margin-top: 5px;
 }
 .contact-left form>label>input{
     width: 80%;
