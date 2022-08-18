@@ -76,6 +76,7 @@ h1, h2, h3{
 .col-4 {width: 32%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 49%;}
+.col-8 {width: 66%;}
 .col-12 {width: 100%;}
 .common-heading{
     position: relative;
@@ -257,7 +258,7 @@ h1, h2, h3{
 .image-container {
     width: 25%;
 }
-.instra-images img{
+.image-container img{
     height: 325px;
 }
 .instra-footer{
