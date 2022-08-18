@@ -58,18 +58,15 @@ h1, h2, h3{
     background-color: #f9f9f9;
 }
 .container {
-    width: 1170px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .row {
     display: flex;
-    flex-flow: row nowrap;
     justify-content: space-between;
 }
-@media screen and (min-width: 760px) {
-
-}
+@media screen and (min-width: 769px) {
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 22%;}
@@ -78,6 +75,7 @@ h1, h2, h3{
 .col-6 {width: 49%;}
 .col-8 {width: 66%;}
 .col-12 {width: 100%;}
+}
 .common-heading{
     position: relative;
     text-transform: uppercase;
@@ -118,7 +116,13 @@ h1, h2, h3{
     padding-top: 5px;
     width: 90px;
 }
-
+.mobile-menu {
+	font-size: 30px;
+	line-height: 75px;
+	color: #f9f9f9;
+	margin-left: 70%;
+    display: none;
+}
 .nav-menu {
     display: flex;
     justify-content: flex-end;    
@@ -131,7 +135,7 @@ h1, h2, h3{
     color: #fff;
     text-transform: uppercase;
     font-family: roboto-b;
-    font-size: 19px;
+    font-size: 1rem;
     display: inline-block;
     position: relative;
     transition: 0.5s;
@@ -286,7 +290,6 @@ h1, h2, h3{
 /*--- Journal Section Start----*/
 #journal{
     padding-top: 75px;
-    padding-bottom: 60px;
 }
 .journal{
     padding-top: 30px;
@@ -331,7 +334,7 @@ h1, h2, h3{
 }
 .content-btn span{
     display: inline-block;
-    padding-left: 125px;
+    margin-left: 45%;
 }
 .content-btn span>i{
     color: var(--cclr-h);
@@ -339,7 +342,6 @@ h1, h2, h3{
 /*-------My Service Area Start----*/
 #my-service{
     padding-top: 90px;
-    padding-bottom: 60px;
 }
 .my-service-h{
     text-align: left;
@@ -454,6 +456,7 @@ h1, h2, h3{
     border: none;
     padding: 10px 0;
     border-bottom: 1px solid #f9f9f9;
+    width: 100%;
 }
 .contact-left form input[type="submit"] {
     padding: 10px 15px;

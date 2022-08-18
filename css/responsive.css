@@ -1,4 +1,78 @@
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 576px) {
+    img {
+        max-width: 100%;
+    }
+    .row {
+        display: block;
+    }
+    .col-3, .col-4, .col-5, .col-6, .col-8{
+        width: 100%;
+    }
+    .heading-before{
+        left: 3%;
+    }
+    .heading-after{
+      right: 3%;
+    }
+    .mobile-menu {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .logo {
+        display: inline-block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    /* --- Journal Section---- */
+    .content-btn span{
+        margin-left: 55%;
+    }
+
+    /*----- My Service Section---- */
+    .my-a-heading>span{
+        right: 34%;
+    }
+    .my-s-heading {
+        margin-top: 35px;
+    }
+    .my-s-heading>span{
+        left: 32%;
+    }
+    /* -----Contact Section------ */
+    .contact-form .contact-h-before{
+        left: 13%;
+    }
+    .contact-form .contact-h-after{
+        right: 13%;
+    }
+    /* ----- Footer Section---- */
+    .twiter, .popular-post, .footer-about {
+        padding-top: 35px;
+    }
+    .footer-top h3, .footer-content, .footer-bottom>p {
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .row {
+        display: flex;
+    }
+    .col-1, .col-2, .col-3 {
+        width: 50%;
+    }
+    .col-4 {width: 32%;}
+    .col-5, .col-6, .col-8 {width: 100%;}
     
-    
+    .mobile-menu {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .logo {
+        display: inline-block;
+    }
+    .nav-menu {
+        display: none;
+    }
 }
