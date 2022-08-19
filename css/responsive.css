@@ -1,8 +1,6 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
-    .row {
-        display: flex;
-    }
+    
     .col-1, .col-2, .col-3 {
         width: 50%;
     }
@@ -25,20 +23,14 @@
     img {
         max-width: 100%;
     }
-    .row {
-        display: block;
-    }
     .col-3, .col-4, .col-5, .col-6, .col-8{
         width: 100%;
     }
-    .heading-before{
-        left: 3%;
-    }
-    .heading-after{
-      right: 3%;
+    .heading-before, .heading-after {
+        display: none;
     }
     .mobile-menu {
-        display: inline-block;
+        display: block;
         cursor: pointer;
     }
     .logo {
@@ -47,21 +39,38 @@
     .nav-menu {
         display: none;
     }
-    /* --- Journal Section---- */
-    .content-btn span{
-        margin-left: 55%;
+
+    /* ----Service Section --- */
+    .service-content {
+        margin-top: 15px;
     }
 
-    /*----- My Service Section---- */
-    .my-a-heading>span{
-        right: 34%;
+    /* ---- Instrgram Section --- */
+    .image-container {
+        width: 100%;
+        margin: 5px;
     }
+    .instra-footer {
+        height: 125px;
+        padding-top: 30px;
+    }
+
+    /* --- Journal Section---- */
+    .content-btn span{
+        margin-left: 50%;
+    }
+    .journal-content {
+        margin-top: 15px;
+    }
+    /*----- My Service Section---- */
+    
     .my-s-heading {
         margin-top: 35px;
     }
-    .my-s-heading>span{
-        left: 32%;
+    .my-service-text {
+        padding-left: 10px;
     }
+    
     /* -----Contact Section------ */
     .contact-form .contact-h-before{
         left: 13%;
@@ -75,5 +84,30 @@
     }
     .footer-top h3, .footer-content, .footer-bottom>p {
         padding-left: 10px;
+    }
+
+    
+}
+@media screen and (max-width: 480px) {
+    
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-text h2 {
+        font-size: 40px;
+    }
+    .my-service-icon {
+        padding-left: 10px;
+        font-size: 25px;
+    }
+    .my-service-text {
+        padding-left: 10px;
+    }
+    .content-btn span{
+        margin-left: 33%;
+    }
+
+    .contact-left form>label>input {
+        width: 75%;
     }
 }
