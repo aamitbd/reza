@@ -1,6 +1,43 @@
-
+@media screen and (max-width: 992px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-8 {width: 66.66%;}
+    .col-12 {width: 100%;}
+    .heading-before{
+        left: 20%;
+        top: 50%;
+    }
+    .heading-after{
+      right: 20%;
+      top: 50%;
+    }
+    .content-btn > a {
+        font-size: 12px;
+    }
+    .content-btn span {
+        margin-left: 20%;
+    }
+    .my-a-heading>span{
+        right: 15%;
+    }
+    .my-s-heading>span{
+        left: 40%;
+    }
+    .contact-form .contact-h-before{
+        left: 26%;
+    }
+    .contact-form .contact-h-after{
+        right: 26%;
+    }
+}
 @media screen and (max-width: 768px) {
-    
+    img {
+        max-width: 100%;
+    }
     .col-1, .col-2, .col-3 {
         width: 50%;
     }
@@ -12,15 +49,17 @@
     .heading-after{
         right: 8%;
         }
-    .mobile-menu {
+    #mobile-menu {
         display: block;
         cursor: pointer;
     }
     .logo {
         display: block;
     }
-    .nav-menu {
+    #nav-menu {
         display: none;
+        text-align: center;
+        line-height: 50px;
     }
     /* ----Service Section --- */
     .service-content {
@@ -65,6 +104,9 @@
     }
     
     /* --- Footer Section ----*/
+    .popular-post, .footer-about {
+        padding-top: 35px;
+    }
     .footer-content {
         margin-right: 10px;
     }
@@ -72,9 +114,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    img {
-        max-width: 100%;
-    }
+    
     .col-3, .col-4, .col-5, .col-6, .col-8{
         width: 100%;
     }
@@ -100,7 +140,7 @@
         right: 13%;
     }
     /* ----- Footer Section---- */
-    .twiter, .popular-post, .footer-about {
+    .twiter {
         padding-top: 35px;
     }
     .footer-top h3, .footer-content, .footer-bottom>p {
@@ -117,6 +157,9 @@
     .banner-text h2 {
         font-size: 40px;
     }
+    .author-info h3 {
+        font-size: 25pt;
+    }
     .my-service-icon {
         padding-left: 10px;
         font-size: 25px;
@@ -127,7 +170,9 @@
     .content-btn span{
         margin-left: 33%;
     }
-
+    .about-me-content > h5 {
+        font-size: 15px;
+    }
     .contact-left form>label>input {
         width: 75%;
     }
