@@ -61,9 +61,7 @@ h1, h2, h3{
     width: 90%;
     margin: 0 auto;
 }
-.clr {
-    clear: both;
-}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +124,7 @@ h1, h2, h3{
 	font-size: 30px;
 	line-height: 75px;
 	color: #f9f9f9;
-    
+    display: none;
 }
 .nav-menu {
     display: flex;
@@ -525,6 +523,7 @@ h1, h2, h3{
 }
 .footer-content{
     padding-top: 25px;
+    margin-right: 10px;
 }
 .get-in{
     display: flex;

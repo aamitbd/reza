@@ -1,22 +1,74 @@
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     
     .col-1, .col-2, .col-3 {
         width: 50%;
     }
-    .col-4 {width: 32%;}
-    .col-5, .col-6, .col-8 {width: 100%;}
-    
+    .col-4, .col-5, .col-6, .col-8 {
+        width: 100%;}
+    .heading-before{
+        left: 8%;
+        }
+    .heading-after{
+        right: 8%;
+        }
     .mobile-menu {
-        display: inline-block;
+        display: block;
         cursor: pointer;
     }
     .logo {
-        display: inline-block;
+        display: block;
     }
     .nav-menu {
         display: none;
     }
+    /* ----Service Section --- */
+    .service-content {
+        margin-top: 15px;
+    }
+    /* ---- Instrgram Section --- */
+    .image-container {
+        width: 50%;
+        padding: 3px;
+    }
+    .instra-footer {
+        height: 125px;
+        padding-top: 30px;
+    }
+    /* --- Journal Section---- */
+    .content-btn span{
+        margin-left: 63%;
+    }
+    .journal-content {
+        margin-top: 15px;
+    }
+    /*----- My Service Section---- */
+    .my-a-heading>span{
+        right: 45%;
+    }
+    .my-s-heading>span{
+        left: 27%;
+    }
+
+    .my-s-heading {
+        margin-top: 35px;
+    }
+    .my-service-text {
+        padding-left: 10px;
+    }
+    /* --- Contact Section ----*/
+    .contact-form .contact-h-before{
+        left: 18%;
+    }
+    .contact-form .contact-h-after{
+        right: 18%;
+    }
+    
+    /* --- Footer Section ----*/
+    .footer-content {
+        margin-right: 10px;
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -29,48 +81,17 @@
     .heading-before, .heading-after {
         display: none;
     }
-    .mobile-menu {
-        display: block;
-        cursor: pointer;
-    }
-    .logo {
-        display: inline-block;
-    }
-    .nav-menu {
-        display: none;
-    }
-
-    /* ----Service Section --- */
-    .service-content {
-        margin-top: 15px;
-    }
-
+    
     /* ---- Instrgram Section --- */
     .image-container {
         width: 100%;
-        margin: 5px;
     }
-    .instra-footer {
-        height: 125px;
-        padding-top: 30px;
-    }
-
+    
     /* --- Journal Section---- */
     .content-btn span{
         margin-left: 50%;
     }
-    .journal-content {
-        margin-top: 15px;
-    }
-    /*----- My Service Section---- */
-    
-    .my-s-heading {
-        margin-top: 35px;
-    }
-    .my-service-text {
-        padding-left: 10px;
-    }
-    
+        
     /* -----Contact Section------ */
     .contact-form .contact-h-before{
         left: 13%;
@@ -109,5 +130,8 @@
 
     .contact-left form>label>input {
         width: 75%;
+    }
+    .right-item > p {
+        padding-left: 10px;
     }
 }
